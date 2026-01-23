@@ -3,7 +3,7 @@
 //vue è un front end framework per costruire interfacce utente
 // vue-router è una libreria che permette di gestire la navigazione tra le pagine
 
-import { createWebHistory, createRouter } from 'vue-router'
+import { createWebHashHistory, createRouter } from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Services from './views/Services.vue'
