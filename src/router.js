@@ -3,11 +3,11 @@
 //vue è un front end framework per costruire interfacce utente
 // vue-router è una libreria che permette di gestire la navigazione tra le pagine
 
-import { createWebHashHistory, createRouter } from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
-import Services from './views/Services.vue'
-import Contact from './views/Contact.vue'
+import { createRouter, createMemoryHistory, createWebHashHistory } from 'vue-router';
+import Home from './views/Home.vue';
+import About from './views/About.vue';
+import Services from './views/Services.vue';
+import Contact from './views/Contact.vue';
 import "leaflet/dist/leaflet.css";
 
 const routes = [
@@ -34,9 +34,12 @@ const routes = [
   }
 ]
 
+const history = typeof window !== 'undefined'
+  ? createWebHashHistory()
+  : createMemoryHistory();
 
 const router = createRouter({
- history: createWebHashHistory(import.meta.env.BASE_URL),
+ history,
   routes, scrollBehavior() {
       return { top: 0 }
     }
