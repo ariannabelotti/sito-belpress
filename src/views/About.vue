@@ -83,7 +83,7 @@
             class="w-full h-full object-cover rounded-2xl opacity-80" />
         </div>
 
-        <!-- CITAZIONE -->
+        <!-- CIT -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-24">
           <div class="lg:col-span-5">
             <p class="text-xl sm:text-2xl italic font-serif text-stone-600 mb-4">
