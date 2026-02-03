@@ -4,7 +4,7 @@
       <img src="../assets/Sfondo2.jpg" alt="Sfondo About Us" class="absolute inset-0 object-cover w-full h-full">
       <div class="absolute inset-0 bg-linear-to-b from-stone-900/50 to-black"></div>
 
-      <!-- PARTE TESTO -->
+      <!-- PARTE TESTtO -->
       <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
         <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-10 lg:mt-0">
           Lavora con noi.
