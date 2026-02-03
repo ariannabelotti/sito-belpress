@@ -91,7 +91,7 @@
               esperienza e attenzione costante.”
             </p>
             <p class="text-sm text-white">
-              La famiglia Belpress.
+              La famiglia Bel(otti)press.
             </p>
           </div>
 
