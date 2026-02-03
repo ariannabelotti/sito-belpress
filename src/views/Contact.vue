@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-gradient-to-b from-black to-stone-900">
+  <section class="bg-linear-to-b from-black to-stone-900">
     <section id="sfondo" class="relative w-full h-56 sm:h-64 lg:h-70 overflow-hidden">
       <img src="../assets/Sfondo2.jpg" alt="Sfondo About Us" class="absolute inset-0 object-cover w-full h-full">
-      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/50 to-black"></div>
+      <div class="absolute inset-0 bg-linear-to-b from-stone-900/50 to-black"></div>
 
       <!-- PARTE TESTO -->
       <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
-        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-10 lg:mt-0">
           Lavora con noi.
         </h3>
 
@@ -25,14 +25,14 @@
     </section>
 
     <!-- Contenitore  -->
-    <div class="mx-auto max-w-[900px] px-6">
+    <div class="mx-auto max-w-225 px-6">
 
       <!-- Mappa + Dati -->
       <div class="flex flex-col lg:flex-row justify-start gap-0 mb-20">
 
         <!-- Mappa -->
         <div
-          class="w-full lg:w-1/2 h-64 sm:h-80 lg:h-[600px]
+          class="w-full lg:w-1/2 h-64 sm:h-80 lg:h-150
                  bg-gray-200 border-4 border-stone-800
                  rounded-t-xl lg:rounded-l-xl lg:rounded-tr-none
                  overflow-hidden">
@@ -41,7 +41,7 @@
 
         <!-- Box informazioni -->
         <div
-          class="w-full lg:w-1/2 h-auto lg:h-[600px]
+          class="w-full lg:w-1/2 h-auto lg:h-150
                  bg-stone-800 p-6
                  rounded-b-xl lg:rounded-r-xl lg:rounded-bl-none
                  flex flex-col justify-between">

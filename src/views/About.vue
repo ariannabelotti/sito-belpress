@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-gradient-to-b from-black to-stone-900">
+  <section class="bg-linear-to-b from-black to-stone-900">
     <section id="sfondo" class="relative w-full h-64 sm:h-80 lg:h-90 overflow-hidden">
       <img src="../assets/Sfondo.jpg" alt="Sfondo About Us" class="absolute inset-0 object-cover w-full h-full">
-      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 to-black"></div>
+      <div class="absolute inset-0 bg-linear-to-b from-stone-900/60 to-black"></div>
 
       <!-- PARTE TESTO -->
       <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
-        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-10 lg:mt-0">
           La nostra azienda.
         </h3>
 
@@ -26,7 +26,7 @@
 
     <section class="py-16 sm:py-20">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-10">
 
           <!-- Valori lato -->
           <aside class="lg:col-span-2 text-sm text-orange-500 space-y-2 text-center lg:text-left">

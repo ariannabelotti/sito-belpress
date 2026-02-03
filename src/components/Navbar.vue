@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex items-center justify-between pt-3 pb-3 pl-6 pr-4 bg-white/70 backdrop-blur-2xl text-orange-500 rounded-3xl
+    class="flex items-center justify-between pt-3 pb-3 pl-6 pr-4 bg-white backdrop-blur-2xl text-orange-500 rounded-3xl
            fixed top-6 left-4 right-4 md:left-10 md:right-10 lg:left-30 lg:right-30 w-auto z-50"
   >
     <div class="h-10 w-auto">
@@ -43,7 +43,7 @@
     <!-- Menù che scende -->
     <div
       id="mobile-menu"
-      class="md:hidden absolute left-4 right-4 top-[72px] bg-white/70 backdrop-blur-2xl rounded-3xl p-6
+      class="md:hidden absolute left-4 right-4 top-[72px] bg-white backdrop-blur-2xl rounded-3xl p-6
              transition-all duration-300 ease-out"
       :class="isMenuOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-2 pointer-events-none'"
     >
