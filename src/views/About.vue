@@ -130,7 +130,7 @@
               </div>
             </div>
 
-            <!-- TESTI -->
+            <!-- TESTIi -->
             <div class="p-4">
               <p class="font-bold text-xl">{{ person.name }}</p>
               <div class="bg-orange-500 h-0.5 w-40 mx-auto my-2 rounded-full"></div>
