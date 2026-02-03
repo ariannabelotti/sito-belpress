@@ -71,7 +71,7 @@
 
       <p class="text-base md:text-lg p-6" v-if="tendinaAperta">{{ aboutInfo.content }}</p>
     </div>
-    <!-- v-if permette di mostrare o nascondere il contenuto in base allo stato della variabile tendinaAperta che è collegata alla funzione apriTendina -->
+    <!--v-if permette di mostrare o nascondere il contenuto in base allo stato della variabile tendinaAperta che è collegata alla funzione apriTendina -->
   </section>
 
   <section
