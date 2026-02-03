@@ -40,7 +40,7 @@
       </svg>
     </button>
 
-    <!-- Menù che scende -->
+    <!-- Menù che appare giù -->
     <div
       id="mobile-menu"
       class="md:hidden absolute left-4 right-4 top-18 bg-white backdrop-blur-2xl rounded-3xl p-6
