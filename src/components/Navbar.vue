@@ -43,7 +43,7 @@
     <!-- Menù che scende -->
     <div
       id="mobile-menu"
-      class="md:hidden absolute left-4 right-4 top-[72px] bg-white backdrop-blur-2xl rounded-3xl p-6
+      class="md:hidden absolute left-4 right-4 top-18 bg-white backdrop-blur-2xl rounded-3xl p-6
              transition-all duration-300 ease-out"
       :class="isMenuOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-2 pointer-events-none'"
     >

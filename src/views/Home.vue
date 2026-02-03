@@ -14,7 +14,7 @@
     <div
       class="flex flex-col items-start justify-end pb-24 md:pb-32 lg:pb-40 min-h-screen
              px-6 md:px-14 lg:px-30
-             bg-gradient-to-b from-transparent to-black"
+             bg-linear-to-b from-transparent to-black"
     >
       <div class="flex flex-col justify-end items-start">
         <h1 class="text-3xl md:text-4xl font-bold">
@@ -77,7 +77,7 @@
   <section
     id="services"
     class="w-full px-6 md:px-14 lg:px-30 py-20 md:py-28 lg:py-40
-           flex flex-col items-center bg-gradient-to-b from-black to-stone-900 mt-14 md:mt-20"
+           flex flex-col items-center bg-linear-to-b from-black to-stone-900 mt-14 md:mt-20"
   >
     <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-12 md:mb-16 lg:mb-20">I nostri servizi</h3>
 
