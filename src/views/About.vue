@@ -1,18 +1,17 @@
 <template>
   <section class="bg-gradient-to-b from-black to-stone-900">
-    <section id="sfondo" class="relative w-full h-90 overflow-hidden">
+    <section id="sfondo" class="relative w-full h-64 sm:h-80 lg:h-90 overflow-hidden">
       <img src="../assets/Sfondo.jpg" alt="Sfondo About Us" class="absolute inset-0 object-cover w-full h-full">
-      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 to-black">
-      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 to-black"></div>
 
       <!-- PARTE TESTO -->
-      <div class="relative z-10 h-60 flex items-center justify-center">
-        <h3 class="text-5xl font-bold text-white">
+      <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4">
           La nostra azienda.
         </h3>
 
         <!-- Pulsante Home -->
-        <div class="absolute top-8 left-8">
+        <div class="absolute top-4 left-4 sm:top-8 sm:left-8">
           <button @click="$router.push('/')"
             class="bg-orange-500 text-white p-3 rounded-full hover:bg-stone-800 transition">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
@@ -25,20 +24,18 @@
       </div>
     </section>
 
-
-    <section class="py-20">
+    <section class="py-16 sm:py-20">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
 
           <!-- Valori lato -->
-          <aside class="lg:col-span-2 text-sm text-orange-500 space-y-2">
+          <aside class="lg:col-span-2 text-sm text-orange-500 space-y-2 text-center lg:text-left">
             <p>Passione.</p>
             <p>Qualità.</p>
             <p>Precisione.</p>
           </aside>
 
-
-          <div class="lg:col-span-8 space-y-6 text-white text-justify items-center">
+          <div class="lg:col-span-8 space-y-6 text-white text-justify">
             <p>
               Belpress Srl è un’impresa con radici solide e una storia di sviluppo
               progressivo, nata dalla passione per l’arte della fonderia e dai valori
@@ -80,19 +77,16 @@
             <p class="mt-2 text-sm">Sul mercato</p>
           </article>
         </div>
-        <!---->
 
-        <div class="w-full h-60 rounded-2xl mb-24">
+        <div class="w-full h-48 sm:h-60 rounded-2xl mb-24">
           <img :src="About1" alt="Immagine About Us"
             class="w-full h-full object-cover rounded-2xl opacity-80" />
         </div>
 
         <!-- CITAZIONE -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-24">
-
-
           <div class="lg:col-span-5">
-            <p class="text-2xl italic font-serif text-stone-600 mb-4">
+            <p class="text-xl sm:text-2xl italic font-serif text-stone-600 mb-4">
               “La qualità non è un risultato casuale, ma il frutto di metodo,
               esperienza e attenzione costante.”
             </p>
@@ -101,24 +95,25 @@
             </p>
           </div>
 
-
           <div class="lg:col-span-5 lg:col-start-8">
-            <div>
-              <img :src="About2" alt="Immagine About Us 2"
-                class="w-full h-full object-cover rounded-2xl border-5 border-orange-500 opacity-90" />
-            </div>
+            <img :src="About2" alt="Immagine About Us 2"
+              class="w-full h-64 lg:h-full object-cover rounded-2xl border-5 border-orange-500 opacity-90" />
           </div>
-
         </div>
-
       </div>
+
       <!-- Il nostro Team -->
-      <h3 class="text-4xl font-bold text-center mb-8">Il nostro Team</h3>
+      <h3 class="text-3xl sm:text-4xl font-bold text-center mb-8">Il nostro Team</h3>
 
       <section class="flex flex-col w-full">
-        <article class="flex flex-wrap justify-center gap-20">
-          <div v-for="person in aboutUsTeam" :key="person.id" class="group text-center text-white mb-4 w-1/5 rounded-2xl bg-stone-600 overflow-hidden
-             duration-300">
+        <article class="flex flex-wrap justify-center gap-10 sm:gap-20">
+          <div
+            v-for="person in aboutUsTeam"
+            :key="person.id"
+            class="group text-center text-white mb-4
+                   w-full sm:w-1/2 md:w-1/3 xl:w-1/5
+                   rounded-2xl bg-stone-600 overflow-hidden duration-300">
+
             <!-- FOTO + OVERLAY -->
             <div class="relative h-60 overflow-hidden">
               <img :src="person.image" :alt="person.name"
@@ -138,9 +133,7 @@
             <!-- TESTI -->
             <div class="p-4">
               <p class="font-bold text-xl">{{ person.name }}</p>
-              <div class="bg-orange-500 h-0.5 w-40 mx-auto my-2 rounded-full">
-
-              </div>
+              <div class="bg-orange-500 h-0.5 w-40 mx-auto my-2 rounded-full"></div>
               <p class="italic text-sm text-white/80">{{ person.bio }}</p>
             </div>
           </div>
@@ -149,6 +142,7 @@
     </section>
   </section>
 </template>
+
 
 
 <script setup>

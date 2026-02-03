@@ -29,12 +29,12 @@
       <!-- GRID SERVIZI -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-fr">
 
-         <!-- CARD 1 -->
+        <!-- CARD 1 -->
         <article
-          class="bg-stone-200 rounded-3xl p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-           <img src="../assets/Progettazione.jpg" alt="Progettazione stampi"
+          class="bg-stone-200 rounded-3xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+          <img src="../assets/Progettazione.jpg" alt="Progettazione stampi"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-          <div>
+          <div class="p-8">
             <h3 class="text-xl font-bold text-stone-800 mb-3">
               Progettazione e costruzione stampi
             </h3>
@@ -44,7 +44,6 @@
             </p>
           </div>
         </article>
- 
 
         <!-- CARD 2 - IMMAGINE GRANDE -->
         <article
@@ -66,11 +65,8 @@
           </div>
         </article>
 
-       
-        
-
         <!-- CARD 3 - COLORE PIENO -->
-          <article
+        <article
           class="md:col-span-2 relative group rounded-3xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
           <img src="../assets/Controllo.jpg" alt="Controllo qualità"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -90,14 +86,14 @@
           </div>
         </article>
 
-
         <!-- CARD 4 -->
         <article
-          class="bg-stone-300 rounded-3xl p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+          class="bg-stone-300 rounded-3xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
           <img src="../assets/Lavorazioni1.jpg" alt="Imballaggi personalizzati"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" /> <div>
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <div class="p-8">
             <h3 class="text-xl font-bold text-stone-800 mb-3">
-            lavorazioni
+              lavorazioni
             </h3>
             <p class="text-gray-700 text-sm">
               Servizi di finitura e lavorazioni secondarie per
@@ -106,11 +102,13 @@
             </p>
           </div>
         </article>
-  <!-- CARD 5 -->
-        <article class="bg-stone-200 rounded-3xl p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-           <img src="../assets/Imballaggio.jpg" alt="Imballaggi personalizzati"
+
+        <!-- CARD 5 -->
+        <article
+          class="bg-stone-200 rounded-3xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+          <img src="../assets/Imballaggio.jpg" alt="Imballaggi personalizzati"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-            <div>
+          <div class="p-8">
             <h3 class="text-xl font-bold text-stone-800 mb-3">
               Imballaggi
             </h3>
@@ -125,8 +123,7 @@
         <!-- CARD 6 - IMMAGINE GRANDE -->
         <article
           class="md:col-span-2 relative group rounded-3xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-         
-<img src="../assets/Consegna.jpg" alt="Consegna puntuale"
+          <img src="../assets/Consegna.jpg" alt="Consegna puntuale"
             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
           <div
             class="absolute inset-0 bg-black/40 transition-colors duration-300 group-hover:bg-black/55 flex items-end p-8">
@@ -143,26 +140,18 @@
           </div>
         </article>
 
-      
-
-     
-
-       
-
-
       </div>
     </div>
-   
   </section>
-    <footer class="p-4 bg-white">
 
-          <img src="../assets/LOGO_BP.svg" alt="Logo BP" class="h-auto mx-auto w-36 mt-4 mb-4" />
-          <div class="w-full flex justify-center text-stone-800 font-medium">
-            <p>©️ 2026 Belpress S.r.l. Tutti i diritti riservati.</p>
-
-          </div>
-        </footer>
+  <footer class="p-4 bg-white">
+    <img src="../assets/LOGO_BP.svg" alt="Logo BP" class="h-auto mx-auto w-36 mt-4 mb-4" />
+    <div class="w-full flex justify-center text-stone-800 font-medium">
+      <p>©️ 2026 Belpress S.r.l. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
 </template>
+
 
 <script setup>
 

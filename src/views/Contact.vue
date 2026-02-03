@@ -1,18 +1,17 @@
 <template>
   <section class="bg-gradient-to-b from-black to-stone-900">
-    <section id="sfondo" class="relative w-full h-70 overflow-hidden">
+    <section id="sfondo" class="relative w-full h-56 sm:h-64 lg:h-70 overflow-hidden">
       <img src="../assets/Sfondo2.jpg" alt="Sfondo About Us" class="absolute inset-0 object-cover w-full h-full">
-      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/50 to-black">
-      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/50 to-black"></div>
 
       <!-- PARTE TESTO -->
-      <div class="relative z-10 h-60 flex items-center justify-center">
-        <h3 class="text-5xl font-bold text-white">
+      <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4">
           Lavora con noi.
         </h3>
 
         <!-- Pulsante Home -->
-        <div class="absolute top-8 left-8">
+        <div class="absolute top-4 left-4 sm:top-8 sm:left-8">
           <button @click="$router.push('/')"
             class="bg-orange-500 text-white p-3 rounded-full hover:bg-stone-800 transition">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
@@ -25,21 +24,27 @@
       </div>
     </section>
 
-
     <!-- Contenitore  -->
-    <div class="mx-auto max-w-[900px]">
-
+    <div class="mx-auto max-w-[900px] px-6">
 
       <!-- Mappa + Dati -->
-      <div class="flex justify-start gap-0 mb-30">
+      <div class="flex flex-col lg:flex-row justify-start gap-0 mb-20">
 
         <!-- Mappa -->
-        <div class="w-1/2 h-[600px] bg-gray-200 border-4 border-stone-800 rounded-l-xl overflow-hidden">
+        <div
+          class="w-full lg:w-1/2 h-64 sm:h-80 lg:h-[600px]
+                 bg-gray-200 border-4 border-stone-800
+                 rounded-t-xl lg:rounded-l-xl lg:rounded-tr-none
+                 overflow-hidden">
           <div ref="mapEl" class="w-full h-full"></div>
         </div>
 
         <!-- Box informazioni -->
-        <div class="w-1/2 h-[600px] bg-stone-800 p-6 rounded-r-xl flex flex-col justify-between">
+        <div
+          class="w-full lg:w-1/2 h-auto lg:h-[600px]
+                 bg-stone-800 p-6
+                 rounded-b-xl lg:rounded-r-xl lg:rounded-bl-none
+                 flex flex-col justify-between">
           <div>
             <p class="font-bold">Indirizzo:</p>
             <p class="text-white italic">Via A. De Gasperi, 21, 25030 Zocco BS</p>
@@ -63,18 +68,19 @@
 
           <div class="mt-8">
             <a href="mailto:belpress@libero.it">
-              <button class="bg-orange-500 text-white py-3 px-9 rounded-2xl hover:bg-white hover:text-stone-900 transition font-bold">
+              <button
+                class="bg-orange-500 text-white py-3 px-9 rounded-2xl
+                       hover:bg-white hover:text-stone-900 transition font-bold w-full sm:w-auto">
                 Scrivici ora
               </button>
             </a>
-           
           </div>
         </div>
 
       </div>
 
       <!-- Orari e bottone -->
-      <div class="flex justify-start mb-6">
+      <div class="flex flex-col lg:flex-row justify-between mb-10">
         <div class="text-white text-lg font-medium">
           <p class="font-bold text-2xl py-2">Orari di apertura:</p>
           <p class="font-bold">Dal Lunedì al Venerdì</p>
@@ -84,23 +90,23 @@
           <p class="font-bold">Domenica:</p>
           <p>Chiuso.</p>
         </div>
-        <div class="flex flex-col justify-end ml-65 mb-10">
-          
-        <img src="../assets/LOGO_BP_BIANCO.svg" alt="Logo BP" class="h-auto mx-auto w-90 mt-4 mb-4" />
+
+        <div class="flex justify-center lg:justify-end items-end mt-10 lg:mt-0">
+          <img src="../assets/LOGO_BP_BIANCO.svg" alt="Logo BP"
+               class="h-auto w-48 sm:w-64 lg:w-90" />
         </div>
       </div>
- 
 
     </div>
-    <footer class="p-5 mt-30">
-      <div class="w-full flex justify-center text-white font-medium">
-        <p>©️ 2026 Belpress S.r.l. Tutti i diritti riservati.</p>
 
+    <footer class="p-5 mt-20">
+      <div class="w-full flex justify-center text-white font-medium text-center px-4">
+        <p>©️ 2026 Belpress S.r.l. Tutti i diritti riservati.</p>
       </div>
     </footer>
-
   </section>
 </template>
+
 
 
 
