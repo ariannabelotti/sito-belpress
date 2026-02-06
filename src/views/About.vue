@@ -6,7 +6,7 @@
 
       <!-- PARTE TESTO -->
       <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
-        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-25 lg:mt-0">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-30 lg:mt-0">
           La nostra azienda.
         </h3>
 
@@ -29,7 +29,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-9">
 
           <!-- Valori lato -->
-          <aside class="lg:col-span-2 text-sm text-orange-500 space-y-1 text-center lg:text-left -mt-15 lg:mt-0">
+          <aside class="lg:col-span-2 text-sm text-orange-500 space-y-1 text-center lg:text-left -mt-14 lg:mt-0">
             <p>Passione.</p>
             <p>Qualità.</p>
             <p>Precisione.</p>
