@@ -57,7 +57,8 @@
       <div class="cursor-pointer flex justify-between items-center" @click="apriTendina">
         <!-- il click è una direttiva (attributo speciale del template)  che serve per agganciare un listener in questo caso apritendina a un evento in questo caso  la tendina aperta-->
         <h3 class="text-xl md:text-2xl font-bold text-white">{{ aboutInfo.title }}</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" class="transition-transform duration-300 ease-in-out transform"
+:class="tendinaAperta ? 'rotate-180' : 'rotate-0'">
           <path
             d="M6 9l6 6 6-6"
             fill="none"
