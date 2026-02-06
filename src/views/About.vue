@@ -6,7 +6,7 @@
 
       <!-- PARTE TESTO -->
       <div class="relative z-10 h-auto lg:h-60 flex items-center justify-center">
-        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-10 lg:mt-0">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-4 mt-15 lg:mt-0">
           La nostra azienda.
         </h3>
 
