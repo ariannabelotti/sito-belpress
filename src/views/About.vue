@@ -29,7 +29,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-10">
 
           <!-- Valori lato -->
-          <aside class="lg:col-span-2 text-sm text-orange-500 space-y-2 text-center lg:text-left">
+          <aside class="lg:col-span-2 text-sm text-orange-500 space-y-1 text-center lg:text-left -mt-15 lg:mt-0">
             <p>Passione.</p>
             <p>Qualità.</p>
             <p>Precisione.</p>
@@ -106,7 +106,7 @@
       <h3 class="text-3xl sm:text-4xl font-bold text-center mb-8">Il nostro Team</h3>
 
       <section class="flex flex-col w-full">
-        <article class="flex flex-wrap justify-center gap-10 sm:gap-20">
+        <article class="flex flex-wrap justify-center gap-10 sm:gap-20 px-4 sm:px-0">
           <div
             v-for="person in aboutUsTeam"
             :key="person.id"
@@ -119,7 +119,6 @@
               <img :src="person.image" :alt="person.name"
                 class="object-cover h-full w-full transition-transform duration-500 ease-out group-hover:scale-105" />
 
-              <!-- Overlay arancio opaco che appare in hover -->
               <div class="absolute inset-0 flex items-center justify-center
                  bg-orange-500/80 opacity-0
                  transition-opacity duration-300 ease-out
@@ -130,7 +129,7 @@
               </div>
             </div>
 
-            <!-- TESTIi -->
+            <!-- TESTI -->
             <div class="p-4">
               <p class="font-bold text-xl">{{ person.name }}</p>
               <div class="bg-orange-500 h-0.5 w-40 mx-auto my-2 rounded-full"></div>
@@ -142,6 +141,7 @@
     </section>
   </section>
 </template>
+
 
 
 

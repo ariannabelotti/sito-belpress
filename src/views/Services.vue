@@ -16,8 +16,8 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
 
       <!-- HERO -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h3 class="text-4xl lg:text-5xl font-bold text-orange-500 mb-4 mt-10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <h3 class="text-4xl lg:text-5xl font-bold text-orange-500 mb-4 mt-6">
           Soluzioni complete per la pressofusione
         </h3>
         <p class="text-gray-600 text-lg">

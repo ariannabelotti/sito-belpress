@@ -2,7 +2,7 @@
 
 @import 'tailwindcss';
 
-@theme {
+:root {
   /* theme serve per definire i colori e i font dell'applicazione */
   --font-family: 'Montserrat Alternates', sans-serif;
   --font-size-base: 16px;
