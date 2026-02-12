@@ -15,7 +15,7 @@
 
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
 
-      <!-- HERO -->
+      <!-- prima sez -->
       <div class="text-center max-w-3xl mx-auto mb-10">
         <h3 class="text-4xl lg:text-5xl font-bold text-orange-500 mb-4 mt-5">
           Soluzioni complete per la pressofusione
@@ -105,7 +105,7 @@
   </div>
 </article>
 
-<!-- CARD 5 -->
+<!-- CARD 5 aiut-->
 <article
   class="relative group rounded-3xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
   <img src="../assets/Imballaggio.jpg" alt="Imballaggi"

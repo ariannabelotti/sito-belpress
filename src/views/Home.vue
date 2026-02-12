@@ -112,7 +112,7 @@
         </div>
       </article>
 
-      <!-- /* card3 */ -->
+  
       <article class="bg-stone-800 p-6 rounded-3xl text-white w-full sm:w-80 flex flex-col items-start">
         <div class="bg-orange-500 w-[60px]flex items-center justify-center p-5 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -125,7 +125,6 @@
         </div>
       </article>
 
-      <!-- /* card4 */ -->
       <article class="bg-stone-400 p-6 rounded-3xl text-white w-full sm:w-80 flex flex-col items-start">
         <div class="bg-orange-500 w-[60px]flex items-center justify-center p-5 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -138,7 +137,6 @@
         </div>
       </article>
 
-      <!-- /* card5 */ -->
       <article class="bg-stone-600 p-6 rounded-3xl text-white w-full sm:w-80 flex flex-col items-start">
         <div class="bg-orange-500 w-[60px]flex items-center justify-center p-5 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -151,7 +149,6 @@
         </div>
       </article>
 
-      <!-- /* card6 */ -->
       <article class="bg-stone-400 p-6 rounded-3xl text-white w-full sm:w-80 flex flex-col items-start">
         <div class="bg-orange-500 w-[60px]flex items-center justify-center p-5 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -179,12 +176,12 @@ import { aboutUs } from '../database/aboutUs.js';
 const aboutInfo = aboutUs;
 import { ref } from 'vue'; /* ref è uno stato reattivo della composizione API di Vue, la composizione api permette di creare contenitori reattivi che mostrano qualcosa in un altro posto*/
 
-const tendinaAperta = ref(false); /* qui abbiamo creato una variabile booleana vero o falso con ref, per gestire la tendina */
+const tendinaAperta = ref(false); /* qui ho creato una variabile booleana vero o falso con ref, per gestire la tendina */
 
 function apriTendina() {
   tendinaAperta.value = !tendinaAperta.value;
 }
-/* abbiamo preso il valore di tendina aperta e gli abbiamo detto, se sei false da !tendina aperta, allora diventi true tendina aperta E VICEVERSA */
+/* ho preso il valore di tendina aperta e gli abbiamo detto, se sei false da !tendina aperta, allora diventi true tendina aperta E VICEVERSA */
 </script>
 
 <style scoped></style>
